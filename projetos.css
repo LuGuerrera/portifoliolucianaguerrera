@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-image: url('fundopage.webp');
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color:#5d87f3 ;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto1 {
+    display: flex;
+    align-items: center;
+}
+
+.texto2 {
+    text-align:center;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.descricao {
+    font-size: 1.2rem;
+    color: #555;
+    width: 500px;
+    text-align: justify;
+}
+
+
+
+footer {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
